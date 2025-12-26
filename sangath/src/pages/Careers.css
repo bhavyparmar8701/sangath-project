@@ -1,0 +1,342 @@
+.careers-page {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #4caf50 0%, #2d5016 100%);
+  color: #ffffff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.page-subtitle {
+  font-size: 1.3rem;
+  color: #e0e0e0;
+}
+
+.job-openings-section,
+.internship-section,
+.benefits-section,
+.application-form-section {
+  padding: 4rem 0;
+}
+
+.job-openings-section {
+  background: #ffffff;
+}
+
+.internship-section {
+  background: #f9f9f9;
+}
+
+.benefits-section {
+  background: #ffffff;
+}
+
+.application-form-section {
+  background: #f9f9f9;
+}
+
+.section-header-custom {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header-custom h2 {
+  font-size: 2.5rem;
+  color: #2d5016;
+  margin-bottom: 1rem;
+}
+
+.section-divider {
+  width: 80px;
+  height: 4px;
+  background: #4caf50;
+  margin: 0 auto 1rem;
+  border-radius: 2px;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.job-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  border-top: 4px solid #4caf50;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(76, 175, 80, 0.2);
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.job-header h3 {
+  font-size: 1.5rem;
+  color: #2d5016;
+  margin: 0;
+}
+
+.job-type {
+  background: #4caf50;
+  color: #ffffff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.job-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.job-department {
+  background: #f0f8f0;
+  color: #2d5016;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.job-location {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.job-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.btn-apply {
+  background: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.btn-apply:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+}
+
+.internship-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.internship-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.internship-card h3 {
+  font-size: 1.5rem;
+  color: #2d5016;
+  margin-bottom: 1rem;
+}
+
+.internship-card p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.internship-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.internship-card ul li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #555;
+}
+
+.internship-card ul li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+  transition: all 0.3s;
+}
+
+.benefit-item:hover {
+  background: #f0f8f0;
+  transform: translateX(5px);
+}
+
+.benefit-icon {
+  font-size: 1.5rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.benefit-item span:last-child {
+  font-size: 1.05rem;
+  color: #555;
+}
+
+.application-form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #2d5016;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.form-group input[type="file"] {
+  padding: 0.5rem;
+  border: 2px dashed #e0e0e0;
+  background: #f9f9f9;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.btn-submit {
+  background: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn-submit:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+@media (max-width: 968px) {
+  .jobs-grid,
+  .internship-info {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+  }
+
+  .section-header-custom h2 {
+    font-size: 2rem;
+  }
+
+  .application-form {
+    padding: 1.5rem;
+  }
+}
+
